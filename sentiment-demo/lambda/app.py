@@ -8,6 +8,8 @@ def handler(event, context):
 # Initialize the Unleash client and the boto3 client to interact with
 # AWS and the Unleash feature toggle service.
 
+# LMB 2021-03-03: Added a new comment
+
     unleash_client = UnleashClient(
         url="https://eu.app.unleash-hosted.com/eubb1043/api",
         app_name="sentiment",
